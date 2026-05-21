@@ -1,0 +1,28 @@
+# Dependencias Node (app/ e sim/)
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Firmware — segredos e binarios
+firmware/secrets.h
+firmware/build/
+*.bin
+
+# Variaveis de ambiente
+.env
+.env.*
+
+# Sistemas operacionais
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDEs
+.vscode/
+.idea/
