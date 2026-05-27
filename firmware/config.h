@@ -22,10 +22,8 @@ struct RelayConfig {
 
 // Ajuste o array abaixo. relay_count e derivado automaticamente.
 static const RelayConfig RELAYS[] = {
-  { 16, "Lampada teto", true },
-  { 17, "Abajur",       true },
-  { 18, "Spot 1",       true },
-  { 19, "Spot 2",       true },
+  { 27, "LED 1", true },
+  { 32, "LED 2", true },
 };
 
 static const uint8_t RELAY_COUNT = sizeof(RELAYS) / sizeof(RELAYS[0]);
